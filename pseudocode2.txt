@@ -1,0 +1,18 @@
+program prima
+
+kamus b, prima int
+
+algoritma 
+	input(b)
+	for i = 1; i <= b; i++
+		if b%i == 0 
+		print(i, " ")
+		prima += 1
+	end for
+	if prima == 2 
+		print("prima : true")
+	else
+		print("prima : false")
+	output(prima)
+
+endprogram
